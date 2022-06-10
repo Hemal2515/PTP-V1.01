@@ -16,6 +16,7 @@ public class Ball : MonoBehaviour
             UIManager.instance.LevelFail();
         }
 
+
         //Colorball collides with Greyball, Change the greyball tag and add the ball script in greyball
         if (collision.collider.tag == "GreyBall")
         {
